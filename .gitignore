@@ -1,1 +1,5 @@
-buid/
+.vscode/
+build/
+*.o
+*.bin
+
