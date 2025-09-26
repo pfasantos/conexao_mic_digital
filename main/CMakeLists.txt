@@ -1,6 +1,13 @@
 idf_component_register(
     SRCS "conexao_mic_main.c"
-    INCLUDE_DIRS ""        # Headers locais do main
-    REQUIRES esp_driver_i2s freertos log spi_flash
-    PRIV_REQUIRES esp_driver_gpio
+    INCLUDE_DIRS "."
+    REQUIRES
+        driver
+        freertos
+        esp_system
+        esp_event
+        esp_netif
+        nvs_flash
+        lwip
+        protocol_examples_common
 )

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-# Adiciona o caminho do componente extra
+# Adiciona o caminho do componente extra (protocol_examples_common)
 set(EXTRA_COMPONENT_DIRS
     $ENV{IDF_PATH}/examples/common_components/protocol_examples_common
 )
